@@ -851,6 +851,9 @@ button {
   /* Hero Contents*/
   /* Hero media*/
 }
+.hero .hero__interest-name, .hero .hero__interest-percent, .hero .hero__secured-name, .hero .hero__secured-pice {
+  color: #fff;
+}
 .hero__content {
   width: 540px;
 }
@@ -969,13 +972,11 @@ button {
   row-gap: 5px;
 }
 .hero__secured-pice {
-  color: #fff;
   font-size: 1.4rem;
   font-weight: 600;
   line-height: 1;
 }
 .hero__secured-name {
-  color: #fff;
   font-size: 0.8rem;
   line-height: 1;
 }
@@ -992,12 +993,10 @@ button {
   background: #da6464;
 }
 .hero__interest-percent {
-  color: #fff;
   font-size: 4.4rem;
   font-weight: 600;
 }
 .hero__interest-name {
-  color: #fff;
   font-size: 1.6rem;
   font-weight: 400;
 }
