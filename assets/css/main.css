@@ -851,6 +851,9 @@ button {
   /* Hero Contents*/
   /* Hero media*/
 }
+.hero__content {
+  width: 540px;
+}
 .hero__title {
   margin: 0 0 12px 32px;
   position: relative;
