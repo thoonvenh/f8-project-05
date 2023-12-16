@@ -1,0 +1,68 @@
+@use "../base";
+@use "../abstracts";
+
+/* Header */
+.header {
+    position: sticky;
+    top: -10px;
+    z-index: 1;
+    background: #fff;
+
+    &__inner {
+        padding: 10px 15px 0;
+        @include base.flexCenter;
+        width: 100%;
+    }
+
+    &__menu {
+        @include base.flexCenter;
+        column-gap: 47px;
+        margin-left: 70px;
+
+        &-item {
+            display: inline-block;
+            color: abstracts.$desc-color;
+            font-size: 1.6rem;
+            line-height: 1.75;
+            border-bottom: 1px solid transparent;
+            transition: text-shadow 0.2s, color 0.2s, border-bottom 0.2s;
+
+            &:hover {
+                text-shadow: 1px 0 0 currentColor;
+                color: #212832;
+                border-bottom: 1px solid abstracts.$primary-color;
+            }
+        }
+    }
+
+    &__action {
+        @include base.flexCenter;
+        column-gap: 12px;
+        margin-left: auto;
+    }
+
+    &__login {
+        padding: 12px;
+        color: #212832;
+        font-size: 1.6rem;
+        font-weight: 600;
+        line-height: 1.75;
+    }
+
+    &__sign-up {
+        @include base.flexCenter;
+        min-width: 113px;
+        height: 52px;
+        border-radius: 6px;
+        font-size: 1.6rem;
+        font-weight: 600;
+        line-height: 1.75;
+        background: #212832;
+        color: #fff;
+        transition: opacity 0.2s;
+
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+}

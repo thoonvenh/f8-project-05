@@ -4,6 +4,340 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>CeloBank - Digital Payment For Everyone.</title>
+        <!-- Favicon -->
+        <link
+            rel="apple-touch-icon"
+            sizes="57x57"
+            href="./assets/favicon/apple-icon-57x57.png" />
+        <link
+            rel="apple-touch-icon"
+            sizes="60x60"
+            href="./assets/favicon/apple-icon-60x60.png" />
+        <link
+            rel="apple-touch-icon"
+            sizes="72x72"
+            href="./assets/favicon/apple-icon-72x72.png" />
+        <link
+            rel="apple-touch-icon"
+            sizes="76x76"
+            href="./assets/favicon/apple-icon-76x76.png" />
+        <link
+            rel="apple-touch-icon"
+            sizes="114x114"
+            href="./assets/favicon/apple-icon-114x114.png" />
+        <link
+            rel="apple-touch-icon"
+            sizes="120x120"
+            href="./assets/favicon/apple-icon-120x120.png" />
+        <link
+            rel="apple-touch-icon"
+            sizes="144x144"
+            href="./assets/favicon/apple-icon-144x144.png" />
+        <link
+            rel="apple-touch-icon"
+            sizes="152x152"
+            href="./assets/favicon/apple-icon-152x152.png" />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="./assets/favicon/apple-icon-180x180.png" />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="192x192"
+            href="./assets/favicon/android-icon-192x192.png" />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./assets/favicon/favicon-32x32.png" />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="96x96"
+            href="./assets/favicon/favicon-96x96.png" />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="./assets/favicon/favicon-16x16.png" />
+        <link rel="manifest" href="./assets/favicon/manifest.json" />
+        <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta
+            name="msapplication-TileImage"
+            content="./assets/favicon/ms-icon-144x144.png" />
+        <meta name="theme-color" content="#ffffff" />
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+            rel="stylesheet" />
+        <!-- Styles -->
+        <link rel="stylesheet" href="./assets/css/main.css" />
     </head>
-    <body></body>
+    <body style="height: 5000px">
+        <!-- Header -->
+        <header class="header">
+            <div class="container">
+                <div class="row-lg-12 row">
+                    <div class="header__inner">
+                        <a href="#!">
+                            <img
+                                src="./assets/img/Logo.svg"
+                                alt="CeloBank"
+                                class="logo" />
+                        </a>
+                        <div class="header__menu">
+                            <a href="#!" class="header__menu-item">Home</a>
+                            <a href="#!" class="header__menu-item">Products</a>
+                            <a href="#!" class="header__menu-item">Features</a>
+                            <a href="#!" class="header__menu-item">Blog</a>
+                        </div>
+                        <div class="header__action">
+                            <div>
+                                <a class="header__login" href="#!">Log in</a>
+                            </div>
+                            <div>
+                                <a class="header__sign-up" href="#!">
+                                    Sign up
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <!-- Hero -->
+            <section class="hero">
+                <div class="container">
+                    <div class="row-cols-lg-2 row">
+                        <!-- Hero Contents -->
+                        <div class="col-lg-7 col">
+                            <section class="hero__content">
+                                <p class="hero__title">Digital Smart Wallet</p>
+                                <h1 class="heading hero__heading">
+                                    Digital
+                                    <strong class="hero__heading--color">
+                                        Payment
+                                    </strong>
+                                    For Everyone.
+                                </h1>
+                                <p class="desc hero__desc">
+                                    We bring together eveything that’s required
+                                    to build websites and apps that accept
+                                    payments and send payouts globally. We are
+                                    the best platform.
+                                </p>
+                                <form method="post" class="hero__address">
+                                    <input
+                                        class="hero__address-input"
+                                        type="email"
+                                        name="email"
+                                        id="email"
+                                        placeholder="Your email address"
+                                        required
+                                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" />
+                                    <button
+                                        type="submit"
+                                        class="btn hero__address-btn">
+                                        Get Started
+                                    </button>
+                                </form>
+                                <p class="hero__address-warning">
+                                    *We’ll respect the inbox and never share
+                                    your email.
+                                </p>
+                            </section>
+                        </div>
+                        <div class="col-lg-5 col">
+                            <!-- Hero media -->
+                            <figure class="hero__media">
+                                <div class="hero__media-wrap">
+                                    <img
+                                        src="./assets/img/Mobile Screen.png"
+                                        alt="Digital Payment For Everyone."
+                                        class="hero__img" />
+                                    <div class="hero__deposite">
+                                        <img
+                                            src="./assets/icon/hero-icon-01.svg"
+                                            alt="" />
+                                        <p class="hero__deposite-name">
+                                            Deposite
+                                        </p>
+                                        <p class="hero__deposite-pice">
+                                            $32000
+                                        </p>
+                                    </div>
+                                    <div class="hero__secured">
+                                        <img
+                                            src="./assets/icon/hero-icon-02.svg"
+                                            alt="" />
+                                        <div class="hero__secured-item">
+                                            <p class="hero__secured-pice">
+                                                $1.310
+                                            </p>
+                                            <p class="hero__secured-name">
+                                                SECURED FUNDS
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="hero__interest">
+                                        <p class="hero__interest-percent">0%</p>
+                                        <p class="hero__interest-name">
+                                            Interest
+                                        </p>
+                                    </div>
+                                </div>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Work -->
+            <section class="work">
+                <div class="container">
+                    <div class="row-cols-lg-2 row">
+                        <!-- Work media -->
+                        <div class="col-lg-5 col">
+                            <figure class="work__media">
+                                <div class="work__media-wrap">
+                                    <img
+                                        src="./assets/img/work-img-bg.png"
+                                        alt=""
+                                        class="work__img-bg" />
+                                    <img
+                                        src="./assets/img/work-img.png"
+                                        alt="How It Works"
+                                        class="work__img" />
+                                    <img
+                                        src="./assets/img/work-decor.svg"
+                                        alt=""
+                                        class="work__decor" />
+                                    <div class="work__decor-02">
+                                        <img
+                                            class="work__decor-img"
+                                            src="./assets/img/work-decor-item-img.svg"
+                                            alt="" />
+                                        <div class="work__decor-item">
+                                            <p class="work__decor-title">
+                                                Congratulations
+                                            </p>
+                                            <p class="work__decor-desc">
+                                                Congratulations
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </figure>
+                        </div>
+                        <!-- Work content -->
+                        <div class="col-lg-7 col">
+                            <section class="work__content">
+                                <p class="work__title">Digital Smart Wallet</p>
+                                <h2 class="heading lv2 work__heading">
+                                    How It Works
+                                </h2>
+                                <div class="work__list">
+                                    <div class="work__list-item">
+                                        <h3
+                                            class="heading lv3 work__list-heading">
+                                            1. Open a High Interest Checking
+                                            account
+                                        </h3>
+                                        <p class="work__list-desc">
+                                            Fund your bank account with a
+                                            minimum balance of $100. Enroll in 3
+                                            minutes or less!
+                                        </p>
+                                    </div>
+                                    <div class="work__list-item">
+                                        <h3
+                                            class="heading lv3 work__list-heading">
+                                            2. 10 point-of-sale transactions
+                                            each Month that are at least $10
+                                            each.
+                                        </h3>
+                                        <p class="work__list-desc">
+                                            Be sure to use your rewards checking
+                                            account as often as possible in
+                                            order to accue APYI
+                                        </p>
+                                    </div>
+                                    <div class="work__list-item">
+                                        <h3
+                                            class="heading lv3 work__list-heading">
+                                            3. Receive up to 5.50% APY
+                                        </h3>
+                                        <p class="work__list-desc">
+                                            The APY you earn will be based on
+                                            your account balance and satisfying
+                                            the transaction requirement.
+                                        </p>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Wallet-card -->
+            <section class="wallet-card">
+                <div class="container">
+                    <div class="wallet-card__inner">
+                        <div class="row-cols-lg-2 row">
+                            <div class="wallet-card__item">Wallet-card</div>
+                            <div class="wallet-card__item-02">Wallet-card</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Transfer -->
+            <section class="transfer">
+                <div class="container">
+                    <div class="transfer__inner">
+                        <div class="row-cols-lg-2 row">
+                            <div class="transfer__item">transfer</div>
+                            <div class="transfer__item-02">transfer</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Clients -->
+            <section class="client">
+                <div class="container">
+                    <div class="client__inner">
+                        <div class="row-cols-lg-2 row">
+                            <div class="client__item">client</div>
+                            <div class="client__item-02">client</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Blog -->
+            <section class="blog">
+                <div class="container">
+                    <div class="blog__inner">
+                        <div class="row-cols-lg-2 row">
+                            <div class="blog__item">blog</div>
+                            <div class="blog__item-02">blog</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container"></div>
+            <p>© 2020 Ligft Media All rights reserved.</p>
+        </footer>
+    </body>
 </html>

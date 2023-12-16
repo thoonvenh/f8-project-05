@@ -1,0 +1,19 @@
+@use "../base";
+
+/* Button */
+.btn {
+    @include base.flexCenter;
+    min-width: 149px;
+    height: 58px;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 5.8;
+    border-radius: 8px;
+    background: #7264d6;
+    transition: opacity 0.2s;
+
+    &:hover {
+        opacity: 0.8;
+    }
+}
