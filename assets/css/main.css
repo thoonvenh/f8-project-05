@@ -782,7 +782,7 @@ button {
 /* Header */
 .header {
   position: sticky;
-  top: -10px;
+  top: -8px;
   z-index: 1;
   background: #fff;
 }
